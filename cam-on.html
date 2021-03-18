@@ -59,7 +59,6 @@
                                         <ul class="dropdown">
                                             <li><a href="huong-dan-mua-hang.html">Hướng dẫn mua hàng</a></li>
                                             <li><a href="huong-dan-thanh-toan.html">Hướng dẫn thanh toán</a></li>
-                                            <li><a href="huong-dan-giao-nhan.html">Hướng dẫn giao nhận</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a>Chính Sách</a>
@@ -81,7 +80,6 @@
                                             <ul class="dropdown">
                                                 <li><a href="huong-dan-mua-hang.html">Hướng dẫn mua hàng</a></li>
                                                 <li><a href="huong-dan-thanh-toan.html">Hướng dẫn thanh toán</a></li>
-                                                <li><a href="huong-dan-giao-nhan.html">Hướng dẫn giao nhận</a></li>
                                             </ul>
                                         </li>
                                         <li><a>Chính Sách</a>
@@ -158,8 +156,6 @@
         <div class="jumbotron text-center mt-5" style="background: #E55D87; background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);background: linear-gradient(to right, #5FC3E4, #E55D87); height: 550px; padding-top: 150px;">
             <h2 class="display-3">Chúc mừng <strong></strong> đã đặt hàng thành công</h2>
             <br>
-            <p class="lead">Chúng tôi sẽ liên hệ vào số <strong></strong> </p>
-            <br>
             <p class="lead">Cảm ơn quý khách đã tin tưởng!</p>
             <p class="lead">
                 <a class="btn btn-success btn-sm p-5" href="/" role="button">Tiếp Tục Mua Sắm</a>
@@ -193,7 +189,7 @@
                                                 <i class="zmdi zmdi-email"></i>
                                             </div>
                                             <div class="address-text">
-                                                <a href="mailto:nhathuocquandoi@gmail.com">nhathuocquandoi@gmail.com</a>
+                                                <a href="mailto:store.nhathuocquandoi@gmail.com">store.nhathuocquandoi@gmail.com</a>
                                             </div>
                                         </li>
                                         <li>
@@ -246,7 +242,6 @@
                                 <ul class="footer-categories">
                                     <li><a href="huong-dan-mua-hang.html">Hướng dẫn mua hàng</a></li>
                                     <li><a href="huong-dan-thanh-toan.html">Hướng dẫn thanh toán</a></li>
-                                    <li><a href="huong-dan-giao-nhan.html">Hướng dẫn giao nhận</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -300,9 +295,7 @@
     <script>
         let searchParams = new URLSearchParams(window.location.search);
         let name = searchParams.get('name');
-        let phone = searchParams.get('phone');
         $(".display-3").find("strong").html(name);
-        $(".lead").find("strong").html(phone);
     </script>
 </body>
 
